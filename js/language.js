@@ -12,11 +12,11 @@ setLinguagem();
 
 for(let i=0; i<langs.length; i++) {
     langs[i].addEventListener("click", function() {
-        selecionaLinguagem(this);
+        selectLinguagem(this);
     });
 }
 
-function selecionaLinguagem(linguagemClicada) {
+function selectLinguagem(linguagemClicada) {
     if(linguagemClicada.id == "pt-BR") {
         botaoIngles.classList.add("opaco");
         linguagemClicada.classList.remove("opaco");
@@ -32,9 +32,9 @@ function setLinguagem() {
     const locale = navigator.language;
 
     if(locale == "pt-BR") {
-        selecionaLinguagem(botaoPortugues);
+        selectLinguagem(botaoPortugues);
     } else {
-        selecionaLinguagem(botaoIngles);
+        selectLinguagem(botaoIngles);
     }
 }
 
