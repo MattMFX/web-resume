@@ -308,7 +308,7 @@ a {
 }
 
 .projeto-tecnologias > img {
-    width: fit-content;
+    max-width: fit-content;
     height: 60px;
     margin: 0 5% 25px;
 }
