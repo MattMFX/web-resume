@@ -1,259 +1,257 @@
 body {
-
-    background: linear-gradient(#82a5e5, #2280de), #2280de;
-    background-position: top, bottom;
-    background-size: auto 1000px;
-    background-repeat: no-repeat;
-    color: #FFFFFF;
-    min-height: 100vh;
+  background: linear-gradient(#82a5e5, #2280de), #2280de;
+  background-position: top, bottom;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  min-height: 100vh;
 }
 
 .cabecalho {
-	width: 90%;
-	margin: 0 auto 50px;
-    font-family: "Raleway", sans-serif;
+  width: 90%;
+  margin: 0 auto 50px;
+  font-family: "Raleway", sans-serif;
 }
 
 .cabecalho-lista {
-    text-align: center;
-	padding: 15px 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-    width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .cabecalho-itemLista {
-	cursor: pointer;
-	font-size: 28px;
-	text-transform: uppercase;
-	font-weight: bold;
-	transition: all 300ms;
+  cursor: pointer;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 300ms;
 }
 
 .cabecalho-itemLista:hover {
-	transform: scale(1.07);
-	opacity: 0.65;
+  transform: scale(1.07);
+  opacity: 0.65;
 }
 
 .bullet {
-	background: #ffffff;
-	height: 5px;
-	width: 5px;
-	border-radius: 50%;
+  background: #ffffff;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
 }
 
 .box-lang {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 85px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85px;
+  align-items: center;
 }
 
 .switch-btn {
-    display: flex;
-    justify-content: space-between;
-    width: 75px;
-    border: 2px solid #FFFFFF;
-    border-radius: 25px;
-    padding: 5px;
-    background: #1E90FF;
+  display: flex;
+  justify-content: space-between;
+  width: 75px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 5px;
+  background: #1e90ff;
 }
 
 .switch-lang {
-    background: #FFFFFF;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    cursor: pointer;
+  background: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .opaco {
-    transition: 1s;
-    opacity: .3;
+  transition: 1s;
+  opacity: 0.3;
 }
 
 .switch-lang > img {
-    width: 100%;
+  width: 100%;
 }
 
 .descricao-linguagem {
-    font-size: 15px;
-    font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .lang {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .lang img {
-    width: 25px;
-    border-radius: 12.5px;
-    margin: 0 7px;
-    border: 1px solid #FFFFFF;
+  width: 25px;
+  border-radius: 12.5px;
+  margin: 0 7px;
+  border: 1px solid #ffffff;
 }
 
 @keyframes fade-in {
-	from {
-		transform: translate(0, -50px);
-		opacity: 0;
-	}
-	to {
-		transform: translate(0, 0);
-		opacity: 1;
-	}
-
+  from {
+    transform: translate(0, -50px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
 
 @keyframes fade-out {
-	from {
-		transform: translate(0, 0);
-		opacity: 1;
-	}
-	to {
-		transform: translate(0, 75px);
-		opacity: 0;
-	}
+  from {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(0, 75px);
+    opacity: 0;
+  }
 }
 
 .fade-in {
-    animation: fade-in;
-    animation-duration: 1.2s;
+  animation: fade-in;
+  animation-duration: 1.2s;
 }
 
 .fade-out {
-    animation: fade-out;
-    animation-duration: 1.2s;
+  animation: fade-out;
+  animation-duration: 1.2s;
 }
 
 .divisao {
-    border: 0;
-	border-top: 1px solid #ffffff;
-    flex: 0 0 100%;
-    margin-left: 0;
-    margin-right: 0;
+  border: 0;
+  border-top: 1px solid #ffffff;
+  flex: 0 0 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 main {
-	font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-	width: 980px;
-	margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  width: 980px;
+  margin: 0 auto;
 }
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 .imagem-perfil {
-	width: 30%;
-	border-radius: 50%;
-	box-shadow: 0px 0px 20px 5px #031738;
-	margin-right: 50px;
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px #031738;
+  margin-right: 50px;
 }
 
 .titulo {
-	font-size: 2em;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .descricao {
-	text-align: center;
-	font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .box-conteudo {
-    display: flex;
-    margin-bottom: 105px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  margin-bottom: 105px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .box-conteudo-vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: 80%;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 50px;
 }
 
 .box-conteudo-vertical > .titulo {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .titulos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    margin: 0 auto 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto 50px;
 }
 
 .subtitulo {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 2em;
-    font-weight: 700;
-    flex-basis: 100%;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 2em;
+  font-weight: 700;
+  flex-basis: 100%;
 }
 
 .secundario {
-    font-size: 1.75em;
-    font-weight: 500;
+  font-size: 1.75em;
+  font-weight: 500;
 }
 
 .periodo {
-    font-size: 1.5em;
-    font-weight: 500;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 .logo {
-    margin-right: 50px;
-    flex-basis: 30%;
+  margin-right: 50px;
+  flex-basis: 30%;
 }
 
-.logo img{
-    width: 100%;
+.logo img {
+  width: 100%;
 }
 
 .descricao-principal {
-    flex-basis: 70%;
+  flex-basis: 70%;
 }
 
 .bloco-habilidades {
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .lista-habilidades {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card-habilidade {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: stretch;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: stretch;
 }
 
 .imagem-habilidade {
-    height: 248px;
-    max-width: 100%;
+  height: 248px;
+  max-width: 100%;
 }
 
 .nome-habilidade {
-    font-weight: 500;
-    margin: 1em;
-    font-size: 1.5em;
+  font-weight: 500;
+  margin: 1em;
+  font-size: 1.5em;
 }
 
 /*.caixa-nivel-habilidade {
@@ -272,116 +270,163 @@ main {
 }*/
 
 .lista-projetos {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
-
 .box-projeto {
-    margin: 0 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    margin-bottom: 50px;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 50px;
 }
 
 .box-projeto > .titulo {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 a {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .box-projeto > .descricao {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .projeto-tecnologias {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .projeto-tecnologias > img {
-    max-width: fit-content;
-    height: 60px;
-    margin: 0 5% 25px;
+  max-width: fit-content;
+  height: 60px;
+  margin: 0 5% 25px;
 }
 
 .contato-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  height: 280px;
 }
 
 .contato-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icone-titulo {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
 }
 
 .icone-titulo > img {
-    width: 5%;
+  width: 5%;
 }
 
 .icone-titulo > h3 {
-    font-weight: 500;
-    font-size: 30px;
-    margin-right: 25px;
+  font-weight: 500;
+  font-size: 30px;
+  margin-right: 25px;
 }
 
 .w-10 {
-    width: 10% !important;
+  width: 10% !important;
 }
 
 .w-20 {
-    width: 20% !important;
+  width: 20% !important;
 }
 
 .w-30 {
-    width: 30% !important;
+  width: 30% !important;
 }
 
 .w-40 {
-    width: 40% !important;
+  width: 40% !important;
 }
 
 .w-50 {
-    width: 50% !important;
+  width: 50% !important;
 }
 
 .w-60 {
-    width: 60% !important;
+  width: 60% !important;
 }
 
 .w-70 {
-    width: 70% !important;
+  width: 70% !important;
 }
 
 .w-80 {
-    width: 80% !important;
+  width: 80% !important;
 }
 
 .w-90 {
-    width: 90% !important;
+  width: 90% !important;
 }
 
 .w-100 {
-    width: 100% !important;
+  width: 100% !important;
+}
+
+@media (max-width: 1024px) {
+  .cabecalho-lista {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .cabecalho-itemLista {
+      margin: 15px 0;
+  }
+
+  .bullet {
+      height: 2px;
+      width: 80%;
+  }
+
+  .box-lang {
+      order: -1;
+      margin-bottom: 20px;
+  }
+
+  .box-conteudo {
+      width: 100%;
+      flex-direction: column;
+      align-content: center;
+  }
+
+  .imagem-perfil {
+    margin-bottom: 35px;
+  }
+
+  .logo {
+      max-width: 35%;
+      margin-bottom: 50px;
+  }
+
+  .titulos {
+      width: 100%;
+  }
+
+  .descricao-principal:last-child {
+      width: 80%;
+  }
+
+  .divisao {
+    border: 1px solid #ffffff;
+  }
 }
