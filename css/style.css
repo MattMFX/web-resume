@@ -385,6 +385,15 @@ a {
 }
 
 @media (max-width: 1024px) {
+  body {
+    background: linear-gradient(#82a5e5, #2280de), #2280de;
+    background-position: top, bottom;
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
   main {
     width: 90%;
   }
