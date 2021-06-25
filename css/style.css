@@ -433,7 +433,9 @@ a {
   }
 
   .imagem-perfil {
+    margin: 0;
     margin-bottom: 35px;
+    align-self: center;
   }
 
   .logo {
