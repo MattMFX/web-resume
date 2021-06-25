@@ -387,7 +387,7 @@ a {
 @media (max-width: 1024px) {
   main {
     font-size: 1em;
-    width: 830px;
+    width: 90%;
   }
 
   .cabecalho-lista {
@@ -452,5 +452,10 @@ a {
 
   .divisao {
     border: 1px solid #ffffff;
+  }
+
+  .descricao {
+    text-align: center;
+    font-size: 1em;
   }
 }
