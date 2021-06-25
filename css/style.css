@@ -386,7 +386,6 @@ a {
 
 @media (max-width: 1024px) {
   main {
-    font-size: 1em;
     width: 90%;
   }
 
@@ -452,9 +451,5 @@ a {
 
   .divisao {
     border: 1px solid #ffffff;
-  }
-
-  .descricao {
-      font-size: 20px;
   }
 }
