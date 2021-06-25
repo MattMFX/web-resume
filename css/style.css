@@ -80,6 +80,7 @@ body {
 .descricao-linguagem {
   font-size: 15px;
   font-weight: bold;
+  margin: 2px;
 }
 
 .lang {
@@ -385,28 +386,46 @@ a {
 
 @media (max-width: 1024px) {
   .cabecalho-lista {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .cabecalho-itemLista {
-      margin: 15px 0;
+    margin: 15px 0;
   }
 
   .bullet {
-      height: 2px;
-      width: 80%;
+    height: 2px;
+    width: 80%;
   }
 
   .box-lang {
-      order: -1;
-      margin-bottom: 20px;
+    order: -1;
+    margin: 30px 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .switch-btn {
+    width: 110px;
+    margin-top: 15px;
+  }
+
+  .switch-lang {
+    width: 35px;
+    height: 35px;
+  }
+
+  .descricao-linguagem {
+    font-size: 20px;
+    justify-content: space-between;
   }
 
   .box-conteudo {
-      width: 100%;
-      flex-direction: column;
-      align-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
   }
 
   .imagem-perfil {
@@ -414,16 +433,16 @@ a {
   }
 
   .logo {
-      max-width: 35%;
-      margin-bottom: 50px;
+    max-width: 35%;
+    margin-bottom: 50px;
   }
 
   .titulos {
-      width: 100%;
+    width: 100%;
   }
 
   .descricao-principal:last-child {
-      width: 80%;
+    width: 80%;
   }
 
   .divisao {
